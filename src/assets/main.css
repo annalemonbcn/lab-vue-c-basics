@@ -1,1 +1,9 @@
 @import './base.css';
+
+body > *{
+  padding: 3rem;
+}
+
+h2{
+  margin-top: 40px;
+}
