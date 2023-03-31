@@ -1,13 +1,6 @@
 <template>
   <h2>Iteration 4</h2>
   <p>Here we have a list of posts:</p>
-  <!-- <ul>
-    <li v-for="post in posts" :key="post.id">
-      <h3>{{ post.title }}</h3>
-      <p>{{ post.description }}</p>
-      <p>{{ post.content }}</p>
-    </li>
-  </ul> -->
   <PostComp v-for="post in posts" 
   :key="post.id"
   :title="post.title"
@@ -19,7 +12,7 @@
 <script>
 import PostComp from './PostComp.vue';
 export default {
-  name: 'IterationThree',
+  name: 'IterationFour',
   data() {
     return{
       posts: [
@@ -62,6 +55,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.post{
+  margin-top: 30px;
+}
 </style>

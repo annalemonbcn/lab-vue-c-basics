@@ -1,18 +1,13 @@
 <template>
-
   <NavbarComp />
 
-  <div class="wrapper">
+  <main>
     <IterationTwo />
     <IterationThree />
     <IterationFour />
     <IterationFive />
-  </div>
-
-  <main>
-
   </main>
-
+  
   <FooterComp />
 </template>
 
